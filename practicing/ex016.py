@@ -1,6 +1,6 @@
-from math import floor
+from math import trunc
 
 n = float(input('Digite um número: '))
-a = floor(n)
+a = trunc(n)
 
 print('A parte inteira de {:.2f} é {}'.format(n, a))

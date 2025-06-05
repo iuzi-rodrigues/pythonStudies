@@ -1,8 +1,8 @@
-import math
+from math import radians, sin, cos, tan
 
 a = float(input('Digite um ângulo: '))
-s = math.sin(a)
-c = math.cos(a)
-t = math.tan(a)
+s = sin(radians(a))
+c = cos(radians(a))
+t = tan(radians(a))
 
-print('Seno: {:.2f} \nCosseno: {:.2f} \nTangente: {:.2f} '.format(s, c, t))
+print('Seno: {:.2f} \nCosseno: {:.2f} \nTangente: {:.2f}'.format(s, c, t,))
